@@ -16,9 +16,9 @@
 5. Конец.<br>
 
 <h2>Код программы</h2>
-'''#define _CRT_SECURE_NO_DEPRECATE 
-#include <stdio.h>
-#include <locale.h>
+<<<#define _CRT_SECURE_NO_DEPRECATE 
+   #include <stdio.h>
+   #include <locale.h>
 #define _USE_MATH_DEFINES 
 #include <math.h>
 
@@ -32,7 +32,7 @@ void main()
 	for (double i = 1; i <= x; i += 0.1)
 		s += sin(i);
 	printf("s = %lf", s);
-}'''
+}>>>
 
 <h2>Схема</h2>
 <img width="687" height="1002" alt="image" src="https://github.com/user-attachments/assets/56d14329-05d2-4815-81ba-8f20069bbb02" />
